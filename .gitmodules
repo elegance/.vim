@@ -10,3 +10,6 @@
 [submodule "pack/vendor/start/nerdcommenter"]
 	path = pack/vendor/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter.git
+[submodule "pack/vendor/start/fzf.vim"]
+	path = pack/vendor/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git

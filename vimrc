@@ -64,6 +64,6 @@ nmap <C-e> :browse oldfiles<CR> " Recent files
 nmap <tab> :NERDTreeToggle<CR>" Open and close the NERD_tree.vim separately
 
 " junegunn/fzf.vim
-" 需先安装：https://github.com/junegunn/fzf 与 https://github.com/ggreer/the_silver_searcher
+" 本机需先安装：https://github.com/junegunn/fzf 与 https://github.com/ggreer/the_silver_searcher
 nnoremap <silent> <Leader>n :Files<CR>
 nnoremap <silent> <Leader>f :Ag<CR>
