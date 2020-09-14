@@ -40,6 +40,11 @@ set fileencodings=utf-8,gbk,cp936,latin-1
 
 language messages zh_CN.utf-8
 
+" leader key 记录
+" emmet-vim: Ctry + y
+" commenter: \
 
 " 按键映射
 nmap <C-i> :NERDTreeToggle<CR>" Open and close the NERD_tree.vim separately
+
+nmap <C-e> :browse oldfiles<CR> " Recent files
