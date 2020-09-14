@@ -41,10 +41,29 @@ set fileencodings=utf-8,gbk,cp936,latin-1
 language messages zh_CN.utf-8
 
 " leader key 记录
+" vim 默认 leaderkey为 反斜杠 ："\", 即： let mapleader="\"
 " emmet-vim: Ctry + y
 " commenter: \
 
-" 按键映射
-nmap <C-i> :NERDTreeToggle<CR>" Open and close the NERD_tree.vim separately
+" ====================== tips begin
+" 按键映射 - 前缀结合
+" nore:  no recursion 不会递归映射, 例如 noremap Y y  与 noremap y Y 同时存在不会出现问题。
+" n: 普通模式下生效
+" v: 可视模式下生效
+" i: 插入模式下生效
+" c: 命令行模式下生效
 
+" unmap后面跟着一个按键组合，表示删除这个映射。
+" ====================== tips end
+
+" 按键记录
+" native
 nmap <C-e> :browse oldfiles<CR> " Recent files
+
+" preservim/nerdtree
+nmap <tab> :NERDTreeToggle<CR>" Open and close the NERD_tree.vim separately
+
+" junegunn/fzf.vim
+" 需先安装：https://github.com/junegunn/fzf 与 https://github.com/ggreer/the_silver_searcher
+nnoremap <silent> <Leader>n :Files<CR>
+nnoremap <silent> <Leader>f :Ag<CR>
