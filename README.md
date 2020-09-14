@@ -16,8 +16,8 @@ git clone --recursive https://github.com/elegance/.vim.git ~/.vim
 # 整个 .vim 目录做成一个 git 仓库，初始化 submodule
 git submodule init
 
-# 添加一个插件
-git submodule add https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+# 添加一个插件，在 ~/.vim/ 目录下执行
+git submodule add https://github.com/preservim/nerdtree.git pack/vendor/start/nerdtree
 
 # 升级所有第三方插件，只要执行
 git submodule update --recursive --remote
