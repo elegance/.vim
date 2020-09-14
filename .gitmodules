@@ -4,3 +4,6 @@
 [submodule "pack/vendor/start/emmet-vim"]
 	path = pack/vendor/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "pack/vendor/start/vim-airline"]
+	path = pack/vendor/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
