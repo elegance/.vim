@@ -13,3 +13,6 @@
 [submodule "pack/vendor/start/fzf.vim"]
 	path = pack/vendor/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/vendor/start/vim-visual-multi"]
+	path = pack/vendor/start/vim-visual-multi
+	url = https://github.com/mg979/vim-visual-multi.git
